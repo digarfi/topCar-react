@@ -1,11 +1,14 @@
+
+import './assets/styles/custom.scss';
 import './App.css';
+import Routes from 'Routes';
 
-function App() {
-
+const App = () => {
   return( 
-  
-  <h1>Top carros</h1>
-  
+  <>
+  <Routes/>
+ 
+  </>
   );
 }
 
